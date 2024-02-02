@@ -22,7 +22,9 @@
 
     /* Custorm*/
     "types":["vite/client"],
-    "paths":"",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
