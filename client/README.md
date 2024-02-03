@@ -22,3 +22,7 @@
 - [ ] eslint (dev)
 - [ ] eslint-config-react-app(dev)
 - [x] @types/node -(dev)
+
+### Working Process Components
+- [x] Navigation Bar
+- [ ] Dashboard
