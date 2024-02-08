@@ -142,7 +142,8 @@ const Row1 = () => {
                             type={"monotone"}
                             dataKey={"profit"}
                             stroke={palette.tertiary[500]}
-                        /><Line
+                        />
+                        <Line
                             yAxisId={"right"}
                             type={"monotone"}
                             dataKey={"revenue"}
