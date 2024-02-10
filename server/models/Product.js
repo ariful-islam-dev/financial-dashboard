@@ -15,7 +15,8 @@ const ProductSchema = new Schema(
             type: mongoose.Types.Currency,
             currency: "USD",
             get: (v)=> v/100
-        },transitions: [{
+        },
+        transactions: [{
             type: mongoose.Types.ObjectId,
             ref:'Transaction'
         }]

@@ -25,4 +25,8 @@
 
 ### Working Process Components
 - [x] Navigation Bar
-- [ ] Dashboard
+- [x] Dashboard
+  - [ ] Row1
+  - [ ] Row2
+  - [ ] Row3
+- [x] Prediction 

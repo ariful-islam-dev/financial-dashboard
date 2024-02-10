@@ -38,7 +38,10 @@ mongoose.connect(process.env.MONGO_URL+"/"+process.env.MONGO_DB).then(async()=>{
     app.listen(PORT, ()=> console.log(`Server Port: ${PORT}`));
 
     /**ADD DATA ONE T|IME ONLY OR */
+    // await mongoose.connection.db.dropDatabase();
     // await mongoose.connection.db.dropCollection('products')
+    // await mongoose.connection.db.dropCollection('kpis')
+    // await mongoose.connection.db.dropCollection('transactions')
     // KPI.insertMany(kpis)
     // Product.insertMany(products)
     // Transaction.insertMany(transactions)
