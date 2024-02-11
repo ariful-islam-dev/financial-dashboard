@@ -9,7 +9,7 @@
 - [ ] ESLint
 - [ ] Prettier ESLint
 
-### 3rd Perty Library
+### 3rd Party Library(FrontEnd)
 - [x] react-redux
 - [ ] @reduxjs/toolkit 
 - [ ] react-router-dom
@@ -22,6 +22,19 @@
 - [ ] eslint (dev)
 - [ ] eslint-config-react-app(dev)
 - [x] @types/node -(dev)
+- [ ] regression
+  
+### 3rd Party Library(Backend)
+- [x] express
+- [ ] mongoose
+- [ ] nodemon-(dev)
+- [ ] body-parser
+- [ ] cors
+- [ ] dotenv
+- [ ] helmet
+- [ ] mongoose-currency
+- [ ] morgan
+- [ ] recharts
 
 ### Working Process Components
 - [x] Navigation Bar
